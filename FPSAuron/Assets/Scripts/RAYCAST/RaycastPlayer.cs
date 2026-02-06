@@ -9,7 +9,7 @@ public class RaycastPlayer : MonoBehaviour
     private LineRenderer lineRenderer;
   
    private float laserRange = 100f; // Distancia máxima del rayo
-    private float laserDuration = 0.6f; // Duración del rayo en segundos
+    private float laserDuration = 0.2f; // Duración del rayo en segundos
 
     void Start()
     {
