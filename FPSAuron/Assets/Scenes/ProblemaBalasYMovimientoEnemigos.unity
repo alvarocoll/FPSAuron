@@ -14517,11 +14517,27 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2125611805}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 243ad4f0c04535c4d972d85f951f6e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Gun
+  spawnPoint: {fileID: 1888433683538638649}
+  bullet: {fileID: 8281248146821785351, guid: 8b9ff3cfcda628f48b7849ea785e47a5, type: 3}
+  shotForce: 1500
+  shotRate: 0.5
+--- !u!114 &2125611816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2125611805}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a91c9e76d4682e4b92133839fdf7bfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GunPool
   spawnPoint: {fileID: 1888433683538638649}
   bullet: {fileID: 8281248146821785351, guid: 8b9ff3cfcda628f48b7849ea785e47a5, type: 3}
   shotForce: 1500
@@ -14589,6 +14605,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 7196508105241543309, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
     - {fileID: 112786709038794789, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
+    - {fileID: 6399827416334133594, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -14598,6 +14615,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 938062111779965238, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2125611811}
+    - targetCorrespondingSourceObject: {fileID: 938062111779965238, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2125611816}
   m_SourcePrefab: {fileID: 100100000, guid: f1f4a95011c02054f9cca92020ac4023, type: 3}
 --- !u!114 &1888433683538638647 stripped
 MonoBehaviour:

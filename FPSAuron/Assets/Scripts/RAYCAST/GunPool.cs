@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class GunRaycast : MonoBehaviour
+public class GunPool : MonoBehaviour
 {
 
     public Transform spawnPoint; // punto desde donde se dispara la bala

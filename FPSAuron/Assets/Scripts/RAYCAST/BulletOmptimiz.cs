@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class BulletRayCast : MonoBehaviour
+public class BulletOptimiz : MonoBehaviour
 {
     [SerializeField] private float bulletSpeed = 5f; // Velocidad a la que se mueve la bala
     [SerializeField] private Rigidbody bulletRb;
